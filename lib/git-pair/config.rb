@@ -22,6 +22,8 @@ module GitPair
 
       `git config user.name "#{authors.map { |a| a.name }.join(' + ')}"`
       `git config user.email "#{Author.email(authors)}"`
+      `launchctl stop org.openbsd.ssh-agent`
+      `launchctl start org.openbsd.ssh-agent`      
     end
 
     def reset
