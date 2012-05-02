@@ -41,7 +41,10 @@ from the global configuration along with the developer abbreviations.
 
 ## About this version
 
-This was forked from http://github.com/chrisk/git-pair.  Many thanks to
+This was forked from http://github.com/edgecase/git-pair.  Many thanks to
+Edgecase for the forked version.  Our version added the resetting of the ssh agent when switching pairs so that we can switch keys when pair switching.
+
+Which was forked from http://github.com/chrisk/git-pair.  Many thanks to
 Chris Kampmeier for the original version.  Our version added the --reset
 option, modified how email addresses are handled, and refactored much of 
 the code.
