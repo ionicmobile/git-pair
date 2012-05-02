@@ -20,3 +20,4 @@ Feature: Switching authors
     When I switch to the pair "LT JCH"
     Then `git pair` should display "Junio C Hamano + Linus Torvalds" for the current author
     And `git pair` should display "devs+jch+lt@example.com" for the current email
+
