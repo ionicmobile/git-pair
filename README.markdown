@@ -7,7 +7,7 @@ more than one author.
 
 Install the gem:
 
-    gem install edgecase-git-pair
+    Specify the github url in your gemfile
 
 And here's how to use it! 
 
