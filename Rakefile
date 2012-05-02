@@ -11,6 +11,7 @@ begin
                       "can commit as more than one author."
     gem.homepage = "http://github.com/ionicmobile/git-pair"
     gem.add_development_dependency "cucumber", ">= 0"
+    gem.authors = ["Ionic Mobile Developer"]
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
