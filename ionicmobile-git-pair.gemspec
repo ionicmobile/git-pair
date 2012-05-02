@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.version = "0.2.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.authors = ["Ionic Mobile Developer"]
   s.date = "2012-05-02"
   s.description = "A git porcelain for pair programming. Changes git-config's user.name and user.email settings so you can commit as more than one author."
-  s.authors = ["Ionic Mobile Developer"]
   s.executables = ["git-pair"]
   s.extra_rdoc_files = [
     "LICENSE",
