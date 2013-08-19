@@ -1,3 +1,5 @@
+# This out of date. Please review the [current git pair](https://github.com/ionicmobile/ionicmobile.github.com/wiki/Pairing)
+
 # git-pair
 
 A git porcelain for changing `user.name` and `user.email` so you can commit as
